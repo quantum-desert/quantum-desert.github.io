@@ -447,6 +447,7 @@ a.dotted-link:hover {
 }
 
 .skills .skillset .level-bar {
+  overflow: hidden;
   height: 15px;
   background: #e8e8e8;
 }
@@ -454,7 +455,10 @@ a.dotted-link:hover {
 .skills .skillset .level-bar-inner {
   height: 15px;
   background: #66cb8c;
+  transition: width 900ms ease;
 }
+
+
 
 .skills .svg-inline--fa {
   margin-right: 3px;
