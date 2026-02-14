@@ -447,7 +447,7 @@ a.dotted-link:hover {
 }
 
 .skills .skillset .level-bar {
-  overflow: hidden;
+  display: block;
   height: 15px;
   background: #e8e8e8;
 }
