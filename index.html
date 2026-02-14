@@ -3,23 +3,21 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Liam Ward's Profile</title>
+<title>William Ward's Profile</title>
 
-<!-- Bootstrap CSS -->
+<!-- Bootstrap -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Your styles -->
+<!-- Existing styles -->
 <link rel="stylesheet" href="css/site.css" />
 <link rel="stylesheet" href="css/styles.css" />
 
-<!-- GitHub calendar CSS -->
+<!-- GitHub calendar -->
 <link rel="stylesheet"
       href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 
 <style>
-.rotate_image {
-    transform: rotate(90deg);
-}
+.rotate_image { transform: rotate(90deg); }
 </style>
 </head>
 
@@ -28,53 +26,225 @@
 <!-- ================= HEADER ================= -->
 <header class="header py-4">
 <div class="container clearfix">
-    <img class="profile-image img-fluid float-start rounded-circle"
-         src="images/LiamWardSmaller.jpg"
-         style="width: 18%;" />
+<img class="profile-image img-fluid float-start rounded-circle"
+     src="images/liamW-headshot-25.jpeg"
+     style="width:18%;" />
 
-    <div class="profile-content float-start ms-3">
-        <h1 class="name">Liam Ward</h1>
-        <h2 class="desc">Applied Physics Ph.D. Student, Electrical Engineer, Physicist</h2>
+<div class="profile-content float-start ms-3">
+<h1 class="name">William Ward</h1>
+<h2 class="desc">Applied Physics Ph.D. Student, Electrical Engineer, Physicist</h2>
 
-        <ul class="social list-inline">
-            <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/william-ward010101" target="_blank">
-                    <img src="svgs/linkedin-in.svg" style="width: 55%; margin-top: 6px;" />
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a href="https://github.com/liamward14" target="_blank">
-                    <img src="svgs/github.svg" style="width: 55%; margin-top: 7px;" />
-                </a>
-            </li>
-        </ul>
-    </div>
+<ul class="social list-inline">
+<li class="list-inline-item">
+<a href="https://www.linkedin.com/in/william-ward010101" target="_blank">
+<img src="svgs/linkedin-svgrepo-com.svg" style="width:55%;margin-top:6px;">
+</a>
+</li>
+<li class="list-inline-item">
+<a href="https://github.com/quantum-desert" target="_blank">
+<img src="svgs/github-square-svgrepo-com.svg" style="width:55%;margin-top:7px;">
+</a>
+</li>
+</ul>
+</div>
 </div>
 </header>
 
-<!-- ================= MAIN ================= -->
 <div class="container">
-<main role="main" class="pb-3">
+<main class="pb-3">
 
 <div class="container sections-wrapper">
 <div class="row">
 
-<!-- ================= PRIMARY ================= -->
+<!-- ================================================= -->
+<!-- PRIMARY COLUMN -->
+<!-- ================================================= -->
 <div class="col-lg-8 col-12">
 
-<!-- ABOUT -->
+<!-- ================= ABOUT ================= -->
 <section class="section" id="about">
 <div class="section-inner shadow-sm rounded p-4">
 <h2 class="heading">About me</h2>
 
 <p>
-I am an Applied Physics PhD student with a passion for hardware & software development...
+I am an Applied Physics PhD student with a passion for hardware & software development
+and an ambitious attitude and an engineering background. My main interests include
+quantum information science, photonics, alternative computing, embedded systems and
+software development. I am currently working in the
+<a href="https://quantumlab.engin.umich.edu/research/" target="_blank">Quantum Engineering Lab</a>
+at the University of Michigan. I work under the supervision of
+<a href="https://scholar.google.com/citations?user=62N2Fu8AAAAJ" target="_blank">Dr. Zheshen Zhang</a>,
+and our aim is to develop more efficient quantum transduction devices that will enable
+development of QuIC (Quantum Interconnect) modules to seamlessly connect disparate quantum
+information processing systems.
 </p>
 
-<div class="mt-3">
-    <button class="btn btn-primary pdf-btn"
-            data-pdf="pdfs/Graduate_School_Resume_CV_WLW.pdf">
-        View Resume
-    </button>
+<p>
+As an engineer with a specialization in engineering physics I have a unique background
+that enables deeper insights regarding complex systems. I have a broad skill set, which
+leads to effective collaboration on many different types of technical projects. I am also
+an effective worker in a team, as I have worked with diverse teams of scientists, engineers,
+software developers & other students. My hobbies include: backpacking, Brazilian Jiu Jitsu,
+and weightlifting.
+</p>
 
-    <button class="btn btn-outline-primary pdf-btn"
+<h5>Check out my <b><a href="https://scholar.google.com/citations?user=3xbons4AAAAJ&hl=en&oi=ao" target="_blank">Google Scholar Profile</a></b>!</h5>
+
+<div class="mt-3">
+<button class="btn btn-primary pdf-btn" data-pdf="pdfs/Graduate_School_Resume_CV_WLW.pdf">
+View Resume
+</button>
+
+<button class="btn btn-outline-primary pdf-btn" data-pdf="pdfs/WLW_UM_TS_REDACTED.pdf">
+UM Transcript
+</button>
+
+<button class="btn btn-outline-primary pdf-btn" data-pdf="pdfs/MCM_TS_MCOFF_2_23.pdf">
+McMaster Transcript
+</button>
+</div>
+
+</div>
+</section>
+
+<!-- ================= PUBLICATIONS ================= -->
+<section class="latest section">
+<div class="section-inner shadow-sm rounded p-4">
+
+<h2 class="heading">Publications</h2>
+
+<div class="featured-image text-center">
+<a href="https://arxiv.org/abs/2410.07544" target="_blank">
+<img class="img-fluid rounded shadow-sm"
+     src="images/eenptd.png"
+     style="width:90%;">
+</a>
+</div>
+
+<h2 class="heading mt-4">Academic + Professional Projects</h2>
+
+<!-- RF DAQ -->
+<div class="text-center mt-3">
+<h3 class="title mb-3">
+Passive Power Harvesting & Data Acquisition Capstone Project
+</h3>
+
+<p>
+In this project, my group and I designed and built a passive, wireless data acquisition
+device. The device harvests power from incident sub-1GHz radio waves, performs dynamic
+sensor measurements and digitization, and transmits the data over free space with infrared
+radiation. The device has no battery and no power source — all energy is harvested from
+incident radio waves.
+</p>
+</div>
+
+</div>
+</section>
+
+<!-- ================= GITHUB ================= -->
+<section class="github section">
+<div class="section-inner shadow-sm rounded p-4">
+<h2 class="heading">My GitHub</h2>
+
+<div id="github-graph"></div>
+
+<a class="btn btn-primary mt-3"
+   href="https://github.com/liamward14"
+   target="_blank">
+More on GitHub
+</a>
+</div>
+</section>
+
+</div>
+
+<!-- ================================================= -->
+<!-- SIDEBAR -->
+<!-- ================================================= -->
+<div class="secondary col-lg-4 col-12">
+
+<!-- BASICS -->
+<aside class="info aside section">
+<div class="section-inner shadow-sm rounded p-4">
+<h2 class="heading">The Basics</h2>
+<ul class="list-unstyled">
+<li><i class="fas fa-map-marker-alt"></i> Ann Arbor, MI, USA</li>
+<li><i class="fas fa-envelope"></i>
+<a href="mailto:wardw@umich.edu">wardw@umich.edu</a></li>
+<li><h5 style="font-size:medium;">Feel free to reach out!</h5></li>
+</ul>
+</div>
+</aside>
+
+<!-- SKILLS -->
+<aside class="skills aside section">
+<div class="section-inner shadow-sm rounded p-4">
+<h2 class="heading">Skills</h2>
+<p class="intro">
+My interest in programming coupled with my education in Engineering Physics has enabled me
+to develop a practical and broad skillset.
+</p>
+</div>
+</aside>
+
+</div>
+</div>
+</div>
+
+</main>
+</div>
+
+<!-- ================= PDF MODAL ================= -->
+<div class="modal fade" id="pdfModal" tabindex="-1">
+<div class="modal-dialog modal-xl modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">Document Viewer</h5>
+<button class="btn-close" data-bs-dismiss="modal"></button>
+</div>
+<div class="modal-body p-0">
+<iframe id="pdfFrame" width="100%" height="650px"></iframe>
+</div>
+</div>
+</div>
+</div>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer bg-light py-3">
+<div class="container text-center">
+<small class="copyright">
+Designed with ❤️ by Xiaoying Riley
+</small>
+</div>
+</footer>
+
+<!-- ================= SCRIPTS ================= -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/ff6f6bb65e.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  // PDF modal
+  const modal = new bootstrap.Modal(document.getElementById("pdfModal"));
+  const frame = document.getElementById("pdfFrame");
+
+  document.querySelectorAll(".pdf-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      frame.src = btn.dataset.pdf;
+      modal.show();
+    });
+  });
+
+  document.getElementById("pdfModal")
+    .addEventListener("hidden.bs.modal", () => frame.src = "");
+
+  // GitHub calendar
+  GitHubCalendar("#github-graph", "liamward14", { responsive: true });
+});
+</script>
+
+</body>
+</html>
