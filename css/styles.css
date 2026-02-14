@@ -181,6 +181,21 @@ a.dotted-link:hover {
   margin-top: 8px;
 }
 
+/* ======= Custom ======== */
+.resume-preview-container {
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.resume-preview {
+  width: 100%;
+  height: 320px;          /* adjust to taste */
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: white;
+}
+
 /* ======= Sections======= */
 .sections-wrapper {
   padding-top: 60px;
