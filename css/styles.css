@@ -186,6 +186,13 @@ a.dotted-link:hover {
   padding: 10px;
   border-radius: 8px;
 }
+.video-preview-container {
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
 
 .resume-preview {
   width: 100%;
